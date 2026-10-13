@@ -1,0 +1,7 @@
+torch==2.5.0
+ogb==1.3.6
+scikit-learn==1.6.1
+numpy==1.26.4
+scipy==1.15.2
+networkx==3.4.2
+PyYAML==6.0.2

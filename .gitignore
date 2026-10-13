@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+# auto-downloaded datasets / external data
+dataset/
+few_shot_data/
+cora/
+# generated artifacts
+motif_cache/
+motifs_*.txt
+motif_gate_*.png
+results.txt
+res/
+result/
+savepoint/
+*.log

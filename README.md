@@ -76,3 +76,8 @@ appended to `./result/<dataset>_res.txt`.
 ```
 
 `GRACE_motif` builds on GRACE (Zhu et al., *Deep Graph Contrastive Representation Learning*, 2020).
+
+## License
+
+Released under the [MIT License](LICENSE). `STAR_motif/` additionally retains the
+original STAR MIT license (`STAR_motif/LICENSE`).

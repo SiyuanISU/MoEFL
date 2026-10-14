@@ -10,12 +10,6 @@ graph few-shot node-classification frameworks:
 
 The two folders are independent. Run each one from inside its own directory.
 
-Motif pipeline (shared idea): nodes are clustered (KMeans) and closed triangles are
-extracted. Each triangle is typed by a WL hash over the cluster labels of its nodes. The
-node–motif incidence (TF-IDF weighted) feeds a motif encoder, whose output is fused
-into the node embedding through a sigmoid gate. Motif extraction is cached to disk
-on the first run for each dataset.
-
 ## Data
 
 Planetoid / Coauthor / Amazon / CoraFull / ogbn-arxiv download automatically into
